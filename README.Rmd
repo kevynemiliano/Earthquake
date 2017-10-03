@@ -1,0 +1,46 @@
+---
+title: "README"
+author: "Kevin Aguirre"
+date: "24 de junio de 2017"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+
+## Coursera Rcapstone
+
+The goal of CourseraRcapstone is to complete the capstone project for the Coursera specialization "Mastering Software Development in R".
+
+The project R code to
+
+- load and cleanup the NOAA dataset
+- visualize the timeline of earthquakes in a 2D graph
+- visualize the locations as well as any other information about
+- fars_summarize_years() ::: makes a summary of the data
+- fars_map_state()::: makes an accident map
+
+
+# README #
+
+This packages is part of the last course 
+
+This repo includes
+* A DESCRIPTION and NAMESPACE file
+* an R/ folder where some R functions are stored in fars_functions.R
+* a man/ folder presenting the functions found in R/ and documented using Roxygen2
+* A vignettes/ folder including an example of running the functions in R/
+* A tests/ folder with a test of the functions output
+
+### Installation
+
+You can install CourseraRcapstone from github with:
+
+``
+install.packages("devtools")
+devtools::install_github("kevynemiliano/Earthquake")
+```
+
+### Vignette
+
+To get started, read the fars vignette: `vignette('fars', package = 'Building-an-R-Package')`.
