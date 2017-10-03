@@ -2,7 +2,7 @@
 #'
 #' @param df A data.frame such as this obtainded from NOAA.
 #'
-#' @return A column of earthquak annotation; locaion, magnitude and deaths. Ignores the fiels when NA.
+#' @return A column o earthquak annotation; locaion, magnitude and deaths. Ignores the fiels when NA.
 #' @examples
 #' \dontrun{
 #' # load and clean data
